@@ -28,6 +28,24 @@ INSERT INTO `aluno` VALUES ('Alice Santos','2003-02-10',106,'Rua Piramide Numero
 UNLOCK TABLES;
 
 --
+-- Dumping data for table `aluno_discp`
+--
+
+LOCK TABLES `aluno_discp` WRITE;
+/*!40000 ALTER TABLE `aluno_discp` DISABLE KEYS */;
+/*!40000 ALTER TABLE `aluno_discp` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `avaliaçao`
+--
+
+LOCK TABLES `avaliaçao` WRITE;
+/*!40000 ALTER TABLE `avaliaçao` DISABLE KEYS */;
+/*!40000 ALTER TABLE `avaliaçao` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Dumping data for table `departamento`
 --
 
@@ -45,6 +63,24 @@ LOCK TABLES `disciplina` WRITE;
 /*!40000 ALTER TABLE `disciplina` DISABLE KEYS */;
 INSERT INTO `disciplina` VALUES ('Álgebra Linear',90,'Estudo de sistemas lineares, matrizes e vetores.',NULL),('Antropologia Cultural',75,'Estudo das culturas humanas, crenças e comportamentos sociais.',NULL),('Cálculo I',120,'Introdução aos conceitos de limites, derivadas e integrais.',NULL),('Filosofia Geral',80,'Estudo dos principais filósofos e correntes filosóficas da história.',NULL),('Física Geral',100,'Estudo das leis fundamentais da física clássica e moderna.',NULL),('História do Brasil',90,'Estudo da história do Brasil desde a colonização até o período contemporâneo.',NULL),('Introdução à Psicologia',60,'Estudo das teorias e práticas fundamentais da psicologia.',NULL),('Probabilidade e Estatística',80,'Teoria de probabilidades, distribuições e análise estatística de dados.','Álgebra Linear'),('Química Geral',90,'Fundamentos da química, abordando átomos, moléculas e reações.',NULL),('Sociologia Brasileira',70,'Análise das questões sociais no Brasil sob a perspectiva sociológica.',NULL);
 /*!40000 ALTER TABLE `disciplina` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `prof_contrato`
+--
+
+LOCK TABLES `prof_contrato` WRITE;
+/*!40000 ALTER TABLE `prof_contrato` DISABLE KEYS */;
+/*!40000 ALTER TABLE `prof_contrato` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `prof_diciplina`
+--
+
+LOCK TABLES `prof_diciplina` WRITE;
+/*!40000 ALTER TABLE `prof_diciplina` DISABLE KEYS */;
+/*!40000 ALTER TABLE `prof_diciplina` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -66,4 +102,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-11-06 14:29:23
+-- Dump completed on 2024-11-06 20:34:52
