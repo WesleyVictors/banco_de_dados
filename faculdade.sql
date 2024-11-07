@@ -33,6 +33,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `aluno_discp` WRITE;
 /*!40000 ALTER TABLE `aluno_discp` DISABLE KEYS */;
+INSERT INTO `aluno_discp` VALUES ('109','Álgebra Linear'),('106','Antropologia Cultural'),('106','Cálculo I'),('199','Cálculo I'),('208','Filosofia Geral'),('109','Física Geral'),('200','História do Brasil'),('199','Introdução à Psicologia'),('208','Introdução à Psicologia'),('112','Probabilidade e Estatística'),('112','Química Geral'),('200','Sociologia Brasileira');
 /*!40000 ALTER TABLE `aluno_discp` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -42,6 +43,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `avaliaçao` WRITE;
 /*!40000 ALTER TABLE `avaliaçao` DISABLE KEYS */;
+INSERT INTO `avaliaçao` VALUES ('2024-10-01 10:00:00','123.456.789-01','Ótima didática, explica bem os conceitos, mas poderia dar mais exemplos práticos.',8),('2024-10-05 14:30:00','123.456.789-01','Professor muito atencioso e paciente. Aulas interessantes, mas o ritmo poderia ser mais dinâmico.',7),('2024-10-04 09:00:00','321.654.987-00','Muito boa professora, mas as aulas poderiam ser mais objetivas e menos teóricas.',7),('2024-10-08 17:00:00','321.654.987-00','Excelente professora, muito dedicada. As aulas são bem estruturadas e os exemplos são claros.',9),('2024-10-02 13:30:00','456.789.123-45','Professor muito bom, mas as aulas são um pouco teóricas. Seria bom mais interação com os alunos.',7),('2024-10-06 16:00:00','456.789.123-45','Excelente domínio do conteúdo, aulas dinâmicas e desafiadoras. Nota 10!',10),('2024-10-01 12:00:00','654.321.987-56','A professora é muito clara em suas explicações, mas a aula poderia ser mais interativa.',8),('2024-10-07 18:30:00','654.321.987-56','Gostei das aulas, mas acho que as avaliações poderiam ser mais explicativas, para saber o que precisamos melhorar.',6),('2024-10-03 11:00:00','987.654.321-09','A professora é excelente, domina o conteúdo e é muito comunicativa. Aulas bem estruturadas.',9),('2024-10-07 15:15:00','987.654.321-09','Ótima explicação, mas seria interessante se ela abordasse mais exemplos de situações práticas.',8);
 /*!40000 ALTER TABLE `avaliaçao` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -71,6 +73,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `prof_contrato` WRITE;
 /*!40000 ALTER TABLE `prof_contrato` DISABLE KEYS */;
+INSERT INTO `prof_contrato` VALUES ('123.456.789-01','123'),('321.654.987-00','248'),('456.789.123-45','236'),('654.321.987-56','186'),('987.654.321-09','234');
 /*!40000 ALTER TABLE `prof_contrato` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -80,6 +83,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `prof_diciplina` WRITE;
 /*!40000 ALTER TABLE `prof_diciplina` DISABLE KEYS */;
+INSERT INTO `prof_diciplina` VALUES ('321.654.987-00','Álgebra Linear'),('456.789.123-45','Antropologia Cultural'),('456.789.123-45','Cálculo I'),('123.456.789-01','Filosofia Geral'),('321.654.987-00','Física Geral'),('987.654.321-09','História do Brasil'),('123.456.789-01','Introdução à Psicologia'),('654.321.987-56','Probabilidade e Estatística'),('654.321.987-56','Química Geral'),('987.654.321-09','Sociologia Brasileira');
 /*!40000 ALTER TABLE `prof_diciplina` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -102,4 +106,5 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-11-06 20:34:52
+-- Dump completed on 2024-11-06 21:06:19
+
